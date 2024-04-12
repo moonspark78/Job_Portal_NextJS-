@@ -2,8 +2,13 @@ import React from 'react'
 import Logo from "@/public/images/logo.png"
 import Link from 'next/link'
 import Image from 'next/image'
+import { getServerSession } from 'next-auth'
+import { authOptions } from '@/auth'
 
-const Nav = () => {
+const Nav = async () => {
+    const session = await getServerSession(authOptions);
+    console.log(session);
+    
   return (
 
     <div className='h-[13vh] overflow-hidden shadow-md'>
