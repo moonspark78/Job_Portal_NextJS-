@@ -14,6 +14,19 @@ const Hero = () => {
                     lg:leading-[4rem] font-extrabold'>
                         The <span className='text-blue-500'>Easiest way</span> <br /> To Get Your New Job
                     </h1>
+                    <p className='text-[#4f5e64] text-[16px] md:text-[18px] mt-[1rem]'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eligendi aliquam facere doloremque. Eveniet velit distinctio mollitia ea 
+                        dolores perspiciatis rem alias dolorem nihil?
+                    </p>
+                    {/* searchBox */}
+                    <div className='mt-[1.5rem]'>
+                        <input 
+                            type="text" 
+                            className='w-[60%] md:w-[70%] lg:w-[75%] px-5 py-4 outline-none rounded-md bg-gray-200' 
+                            placeholder='Search A Job'
+                        />
+                    </div>
                 </div>
                 {/* image */}
                 <div className='hidden lg:block'>
