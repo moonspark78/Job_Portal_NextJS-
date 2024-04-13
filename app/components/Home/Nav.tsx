@@ -37,9 +37,15 @@ const Nav = async () => {
                 </Link>
                 )}
                 {session  && <User session={session}/>}
+                {session && (
+                    <button className='px-4 py-1.5 text-[14px] sm:text-[16px] sm:px-6 sm:py-2 bg-orange-600 font-semibold
+                    text-white rounded-lg hover:bg-orange-800 transition-all duration-300'>
+                       Post A Job
+                   </button>
+                )}
             </div>
         </div>
-    </div>
+    </div>  
   )
 }
 
