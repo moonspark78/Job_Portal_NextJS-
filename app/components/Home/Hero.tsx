@@ -26,6 +26,7 @@ const Hero = () => {
                             className='w-[60%] md:w-[70%] lg:w-[75%] px-5 py-4 outline-none rounded-md bg-gray-200' 
                             placeholder='Search A Job'
                         />
+                        <button className='px-5 py-4 outline-none rounded-r-md bg-blue-500 text-white'>Search</button>
                     </div>
                 </div>
                 {/* image */}
