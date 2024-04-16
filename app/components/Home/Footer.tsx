@@ -4,7 +4,7 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa6'
 const Footer = () => {
   return (
     <div className='pt-[5rem] pb-[3rem] bg-[#111111]'>
-        <div className='w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[3rem]
+        <div className='w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-[3rem]
         items-start pb-[2rem] border-b-2 border-white border-opacity-10'>
             {/* 1st part of the footer */}
             <div>
@@ -51,7 +51,38 @@ const Footer = () => {
                 </p>
             </div>
             {/* 3rd part of footer */}
+            <div>
+                <h1 className='text-[22px] w-fit text-white font-semibold mb-[1.5rem]'>Quick Link</h1>
+                <p className='text-[15px] w-fit text-white hover:text-yellow-300 cursor-pointer text-opacity-30 mb-[0.7rem]'>
+                    All Job
+                </p>
+                <p className='text-[15px] w-fit text-white hover:text-yellow-300 cursor-pointer text-opacity-30 mb-[0.7rem]'>
+                    Job Details
+                </p>
+                <p className='text-[15px] w-fit text-white hover:text-yellow-300 cursor-pointer text-opacity-30 mb-[0.7rem]'>
+                    How To Apply
+                </p>
+                <p className='text-[15px] w-fit text-white hover:text-yellow-300 cursor-pointer text-opacity-30 mb-[0.7rem]'>
+                    Resume
+                </p>
+            </div>
+            {/* 4fth part of footer */}
+            <div>
+                <h1 className='text-[22px] w-fit text-white font-semibold mb-[1.5rem]'>Get In Touch</h1>
+                <p className='text-[15px] w-fit text-white hover:text-yellow-300 cursor-pointer text-opacity-30 mb-[0.7rem]'>
+                    +33643789212
+                </p>
+                <p className='text-[15px] w-fit text-white hover:text-yellow-300 cursor-pointer text-opacity-30 mb-[0.7rem]'>
+                    example@gmail.com
+                </p>
+                <p className='text-[15px] w-fit text-white hover:text-yellow-300 cursor-pointer text-opacity-30 mb-[0.7rem]'>
+                    Souli Souli, Paris
+                </p>
+            </div>
         </div>
+        <h1 className='mt-[2rem] text-[14px] w-[80%] mx-auto text-white opacity-50'>
+            COPYRIGHT BY SOULI - 2024
+        </h1>
     </div>
   )
 }
